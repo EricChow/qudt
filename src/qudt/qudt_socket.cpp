@@ -1,12 +1,17 @@
 #include "qudt_socket.h"
 
-QUDTSocket::QUDTSocket(QObject *parent)
+namespace QUDT
+{
+// NAMESPACE_BEGIN(QUDT)
+
+Socket::Socket(QObject *parent)
 	: QIODevice(parent)
 {
-
 }
 
-QUDTSocket::~QUDTSocket()
+Socket::~Socket()
 {
+}
 
+// NAMESPACE_END(QUDT)
 }

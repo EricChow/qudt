@@ -14,7 +14,7 @@ public:
 	~Socket();
 };
 
-// NAMESPACE_END(QUDT);
+// NAMESPACE_END(QUDT)
 }
 
 #endif//QUDT_SOCKET_H

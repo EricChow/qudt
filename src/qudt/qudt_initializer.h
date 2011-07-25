@@ -5,12 +5,16 @@
 
 namespace QUDT
 {
-	class QUDT_EXPORT Initializer
-	{
-	public:
-		Initializer();
-		~Initializer();
-	};
+// NAMESPACE_BEGIN(QUDT)
+
+class QUDT_EXPORT Initializer
+{
+public:
+	Initializer();
+	~Initializer();
+};
+
+// NAMESPACE_END(QUDT)
 }
 
 #endif//QUDTINITIALIZER_H
