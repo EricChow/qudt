@@ -1,0 +1,77 @@
+##################################################
+# 项目目录结构需要忽略的文件和目录.
+##################################################
+
+# 中间目录.
+obj/
+
+# 临时目录.
+tmp/
+
+# 输出目录.
+bin/
+
+##################################################
+# Visual Studio 需要忽略的文件和目录.
+##################################################
+
+# 调试目录.
+# Debug folder.
+src/Debug/
+src/*/Debug/
+
+# 发布目录.
+# Release folder.
+src/Release/
+src/*/Release/
+
+# 自述文件.
+# Readme.
+readme.txt
+
+# 解决方案配置.
+# The solution options file.
+*.suo
+
+# 智能感知数据库.
+# The no compile browser file.
+*.ncb
+
+# 用户配置.
+# The user options file.
+*.user
+
+# 通用资源信息.
+# Common Web files.
+*.aps
+
+# 程序调试数据库.
+# The program debug database file.
+*.pdb
+
+# 增量链接文件
+# Incremental link file.
+*.ilk
+
+# 链接信息.
+# A text file containing linker information.
+*.map
+
+# 导出信息
+# Export library information.
+*.exp
+
+##################################################
+# Qt Creator 需要忽略的文件和目录.
+##################################################
+
+# Moc 目录.
+# Moc folder.
+GeneratedFiles/
+
+##################################################
+# 当前项目需要忽略的文件和目录.
+##################################################
+
+# kdiff3 备份的原始文件
+*.orig
