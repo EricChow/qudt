@@ -11,4 +11,6 @@ public:
 	~QUDTSocket();
 };
 
+#include "qudt_initializer.h"
+
 #endif//QUDT_H
