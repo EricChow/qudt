@@ -15,5 +15,10 @@ AbstractSocket::~AbstractSocket()
 {
 }
 
+AbstractSocket::AbstractSocket(SocketType socketType, AbstractSocketPrivate &dd, QObject *parent)
+	: QIODevice(dd, parent)
+{
+}
+
 // NAMESPACE_END(QUDT)
 }

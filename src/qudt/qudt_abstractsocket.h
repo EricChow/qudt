@@ -22,6 +22,9 @@ public:
 	AbstractSocket(SocketType socketType, QObject *parent);
 	virtual ~AbstractSocket();
 
+protected:
+	AbstractSocket(SocketType socketType, AbstractSocketPrivate &dd, QObject *parent);
+
 private:
 	Q_DISABLE_COPY(AbstractSocket)
 	Q_DECLARE_PRIVATE(AbstractSocket)
