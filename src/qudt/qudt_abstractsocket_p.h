@@ -4,6 +4,8 @@
 #include "qudt_abstractsocket.h"
 #include <QtCore/private/qiodevice_p.h>
 
+#include "udt.h"
+
 namespace QUDT
 {
 // NAMESPACE_BEGIN(QUDT)
@@ -14,6 +16,13 @@ class AbstractSocketPrivate : public QIODevicePrivate
 public:
 	AbstractSocketPrivate();
 	virtual ~AbstractSocketPrivate();
+
+public:
+	UDTSOCKET m_udtSocket;
+	AbstractSocket::SocketType m_socketType;
+	AbstractSocket::NetworkLayerProtocol m_networkLayoutProtocol;
+
+public:
 };
 
 // NAMESPACE_END(QUDT)
